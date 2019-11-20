@@ -12,7 +12,7 @@ a{
     
 }
 
-a:hover{
+.navbar a:hover{
     transition: .4s;
     color: white;
 }
