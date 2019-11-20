@@ -1,11 +1,5 @@
-nav ul{
-    float:right;
-    background-color: #9eaeb3;
-   
-}
 
 ul li{
-    float:left;
     list-style: none;
     font-size: 1.5em;
     
@@ -20,9 +14,19 @@ a{
 
 a:hover{
     transition: .4s;
-    background-color: red;
     color: white;
 }
 
 
     
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #9eaeb3;
+    
+}
+
+li {
+    display: inline-block;
+
+}
