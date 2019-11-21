@@ -5,15 +5,19 @@ ul li{
     
 }
 
-a{
-    color: #3f4354;
+.navbar a{
+    color: #40403E;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px #B0B0AB;
+   
     
 }
 
 .navbar a:hover{
-    transition: .4s;
+    transition: .5s;
     color: white;
 }
 
@@ -22,7 +26,8 @@ a{
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: #9eaeb3;
+    background-color: #9FB0BF;
+    box-shadow: 2px 2px 2px #40403E;
     
 }
 
