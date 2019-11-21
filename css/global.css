@@ -1,6 +1,8 @@
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Abel', sans-serif;
     font-size: 10pt;
+    color:#40403E;
+    
 }
 
 #logo {
@@ -8,57 +10,16 @@ body {
     height: auto;
     
 }
-
-#slideshowcontainer{
-    height: 800px;
-    position: relative;
-}
-.cycle-slideshow{
-    position: absolute;
-}
-.cycle-slideshow img{
-    width: 98.8vw;
-    height: 75%;
-}
-
-
-.slideshow_text {
-    position: absolute;
-    width: 40%; 
-    z-index: 9999999;
-    margin-top: 15%;
-    margin-left: 5%;
-    margin-right: 5%;
-    color: white;
-    font-size: 1.75em;
-}
-
-#about {
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-.aboutitems img{
-    width: 300px;
-    height: auto;
-    display: inline-block;
-    margin: 5%;
-}
-
-.aboutitems {
-    padding: 5% 7% 5% 7%;
-}
-
 footer{
     display: flex;
     justify-content: center;
-    background-color: #9eaeb3;
+    background-color: #9FB0BF;
     height: auto;
 }
 
 a:hover{
     transition: .4s;
-    color: #9eaeb3;
+    color: #9FB0BF;
 }
 
 #headercontainer{
@@ -74,22 +35,14 @@ a:hover{
 i{
     font-size: 2em;
     padding: 10px;
+    color: #40403E;
 }
 
-hr{
-    width: 90%;
-}
-
-#storelocator {
-    display: flex;
-    justify-content: space-between;
-    margin: 10% 5% 10% 5%;
-}
-
-#clickmap, #address{
-    display: inline-block;
-}
-#clickmap img{
-    width: 45%;
-    height: auto;
+ a{
+    color: #40403E;
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    
+   
+    
 }
