@@ -1,0 +1,15 @@
+
+#storelocator {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 5% 10% 5%;
+}
+
+#clickmap, #address{
+    display: inline-block;
+}
+#clickmap img{
+    width: 45%;
+    height: auto;
+}
+
