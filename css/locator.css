@@ -8,6 +8,7 @@
 #clickmap, #address{
     display: inline-block;
 }
+
 #clickmap img{
     width: 45%;
     height: auto;

@@ -1,0 +1,20 @@
+#itemflex{
+    display: flex;}
+    
+.product {
+display: inline-block;
+padding: 25px;
+}
+
+.sidebar{
+    width:75%;
+    background-color: grey;
+    margin-right: 18px;
+
+}
+.sidebar li{
+    display: block;
+    padding: 10%;
+
+    
+}
