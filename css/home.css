@@ -12,14 +12,24 @@
 
 
 .slideshow_text {
+    color: #0D0D0D;
     position: absolute;
     width: 40%; 
     z-index: 9999999;
-    margin-top: 15%;
-    margin-left: 5%;
-    margin-right: 5%;
-    color: white;
+    padding: 7% 7% 9% 5%;
+    margin-top: 5%;
     font-size: 1.75em;
+    background-color: #BED3E688;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+
+.slideshow_text h1 {
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 2px;
+    color: #FFFCFF;
+    text-shadow: 1px 1px 1px #807E80;
+
 }
 
 #about {
