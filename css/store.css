@@ -1,6 +1,14 @@
 #itemflex{
-    display: flex;}
-    
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+ 
+#itemflex > div {
+  width: 200px;
+  margin: 10px;
+}
+
 .product {
 display: inline-block;
 padding: 25px;
