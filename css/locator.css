@@ -38,7 +38,12 @@
       margin-top: 27%;
       margin-bottom: 27%;
       border: 1px solid #FFFCFF;
+<<<<<<< HEAD
       text-shadow: 1px 1px #222222;
+=======
+      text-shadow: 1px 1px black;
+    margin-bottom: 27%;
+>>>>>>> master
  
      
 }
