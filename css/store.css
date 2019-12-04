@@ -47,3 +47,7 @@
 .sidebar li a {
     color: #FFFCFF;
 }
+
+.sidebar li a:hover {
+    color: #9FB0BF;
+}
