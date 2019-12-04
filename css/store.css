@@ -1,7 +1,10 @@
 #itemflex{
     display: flex;
-    flex-flow: row wrap;
-    align-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row;
+    height: 100%;
+    flex-grow: 1;
 }
  
 #itemflex > div {
@@ -10,16 +13,19 @@
 }
 
 .product {
-display: inline-block;
-padding: 25px;
+    display: inline-block;
+    flex: 1 0 15%;
+    padding: 25px;
 }
 
 .sidebar{
-    width:75%;
+    width: 25%;
     background-color: grey;
     margin-right: 18px;
-
+    height: 100%;
+    display: flex;
 }
+
 .sidebar li{
     display: block;
     padding: 10%;
