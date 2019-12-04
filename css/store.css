@@ -34,15 +34,11 @@
     text-shadow: 1px 1px #222222;
     color: #FFFCFF;
     margin-right: 18px;
-    min-height: 50%;
     display: flex;
-<<<<<<< HEAD
     border-radius: 5px 5px 5px 5px;
-    
-  
-=======
     height: 100%;
->>>>>>> master
+    
+
 }
 
 .sidebar li{
