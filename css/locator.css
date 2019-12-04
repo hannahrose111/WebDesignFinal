@@ -17,11 +17,11 @@
 }
 
 #address{
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 5px 0px 0px 5px;
     margin-top: 2%;
     margin-bottom: 2%;
     width: 40%;
-    background-color: #40403E;
+    background-color: #40403Eee;
     color: #FFFCFF;
     
    
@@ -37,7 +37,7 @@
       text-align: center;
       margin-top: 27%;
       border: 1px solid #FFFCFF;
-      text-shadow: 1px 1px black;
+      text-shadow: 1px 1px #222222;
  
      
 }
