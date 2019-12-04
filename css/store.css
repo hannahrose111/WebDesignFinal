@@ -5,7 +5,6 @@
     flex-direction: row;
     height: 100%;
     
-    
 }
  
 #itemflex > div {
@@ -30,9 +29,8 @@
 
 .sidebar{
     width: 25%;
-    background-color: #40403Eee;
+    background-color: #40403E;
     text-shadow: 1px 1px #222222;
-    color: #FFFCFF;
     margin-right: 18px;
     display: flex;
     border-radius: 5px 5px 5px 5px;
@@ -44,4 +42,8 @@
 .sidebar li{
     display: block;
     padding: 30%;
+}
+
+.sidebar li a {
+    color: #FFFCFF;
 }
